@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bank's beauty online store</title>
+    <link rel="stylesheet" href="../bank's store/style/style.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/lightbox.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link id="css-preset" href="../css/presets/preset1.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon2.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="header">
+        <!-- <section class="main_header">
+			<div class="container">
+				<div class="row justify-content-between"> -->
+        <!-- <div class="col-lg-3 p-0 col-md-4">
+						<p class="city_text">Ваш город: </p><p class="city_button">Алматы</p>
+						<a class="found_store_a" href=""><img src="img/geo.png" style="margin-right: 4px;" alt="">Найти магазин</a>
+					</div> -->
+        <!-- <div class="col-lg-6 col-md-6 p-0">
+						<a class="menu_link" href="">О КОМПАНИИ</a>
+						<a class="menu_link" href="">ОТЗЫВЫ</a>
+						<a class="menu_link" href="">КОНТАКТЫ</a>
+						<a class="menu_link" href="">ДОСТАВКА И ОПЛАТА</a>
+					</div> -->
+        <!-- <div class="col-lg-2 p-0 col-md-2">
+						<input class="reg_button" type="button" value="Вход / Регистрация">
+					</div> -->
+        <!-- </div>
+			</div>
+		</section> -->
+        <!-- <section id="mob_header" class="mob_header">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-1 col-sm-1 col-12">
+						<button class="hide_button" onclick="hideMenu()">X</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-12">
+						<p class="city_text">Ваш город: </p><p class="city_button">Алматы</p>
+					</div>
+					<div class="col-md-3 col-sm-4 col-12">
+						<a class="found_store_a" href=""><img src="img/geo.png" style="margin-right: 4px;" alt="">Найти магазин</a>
+					</div>
+					<div class="col-md-3 col-sm-3 col-12">
+						<input class="reg_button" type="button" value="Вход / Регистрация">
+					</div>
+				</div> -->
+        <!-- <div class="row">
+					<div class="col-md-12 col-sm-12 divide_header_line"></div>
+				</div> -->
+        <!-- <div class="row">
+					<div class="col-md-4">
+						<a class="menu_link mob_menu_link" href="">О КОМПАНИИ</a><br>
+						<a class="menu_link mob_menu_link" href="">ОТЗЫВЫ</a><br>
+						<a class="menu_link mob_menu_link" href="">КОНТАКТЫ</a><br>
+						<a class="menu_link mob_menu_link" href="">ДОСТАВКА И ОПЛАТА</a><br>
+					</div>
+				</div> -->
+        <section id="mob_header" class="mob_header">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 divide_header_line" style="margin: 20px 0;"></div>
+            </div>
+            <div class="row">
+                <a class="catalogue_show" href="#">PRODUCT CATALOG</a><br>
+                <a class="sub_menu_links" href="">NEW PRODUCTS</a><br>
+                <a class="sub_menu_links" href="">GIFT CERTIFICATES</a><br>
+                <a class="sub_menu_links" href="">STOCKS</a><br>
+                <a class="sub_menu_links" href="">BRANDS</a><br>
+                <a class="sub_menu_links" href="">SALE</a><br>
+                <a class="sub_menu_links" href="">USEFUL INFORMATION</a>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="sub_header">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-2">
+                        <button onclick="showMenu()" class="burger_menu">
+                            <div class="line line_1"></div>
+                            <div class="line line_2"></div>
+                            <div class="line line_3"></div>
+                        </button>
+                        <p class="call_number">+7 (705) 007 02 04</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-9">
+                        <a href="index.php">
+                            <img class="Logo_img" src="img/Logo.png" width="200" height="100" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-0 ">
+                        <a class="utilities" href=""><img width="35px" src="img/search-new.png" alt=""></a>
+                        <a class="utilities" href=""><img width="40px" src="img/heart-new.png" alt=""></a>
+                        <a class="utilities" href=""><img width="35px" src="img/bag-2.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="catalogue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <a class="catalogue_show" href="#">PRODUCT CATALOG</a>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <a class="sub_menu_links" href="">NEWPRODUCTS</a>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <a class="sub_menu_links" style="text-align: center;display: inline-block;width: 100%;" href="">GIFT CERTIFICATES</a>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <a class="sub_menu_links" href="">STOCKS</a>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <a class="sub_menu_links" href="">BRANDS</a>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <a class="sub_menu_links" href="">SALE</a>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <a class="sub_menu_links" href="">USEFUL INFORMATION</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slider">
+                        <div class="slider_line">
+                            <img src="img/5c74d72dd6462a5c6677877a045d4f53.jpg" class="slider_img" alt="">
+                            <img src="img/0568125a0e9480880d21c3435edf2a2d.jpg" class="slider_img" alt="">
+                            <img src="img/75b4d296a30fbc513b73107e89f1a0c0.jpg" class="slider_img" alt="">
+                            <img src="img/8d00522f57f0f19b81d0f36a188304a0.jpg" class="slider_img" alt="">
+                            <img src="img/a85fcb4006c0c55a1b8e4129eef0eee0.jpg" class="slider_img" alt="">
+                        </div>
+                        <button class="slider_back"><img width="20px" style="margin-top: -1px;" src="img/left-arrow.png" alt=""></button>
+                        <button class="slider_next"><img width="20px" style="margin-top: -1px;" src="img/right-arrow.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 p-0 m-0">
+                    <div class="slider_controller">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg col-md col-sm col p-0">
+                                    <button onclick="move_slide_1()" class="slider_controller_number">1</button>
+                                </div>
+                                <div class="col-lg col-md col-sm col p-0">
+                                    <button onclick="move_slide_2()" class="slider_controller_number">2</button>
+                                </div>
+                                <div class="col-lg col-md col-sm col p-0">
+                                    <button onclick="move_slide_3()" class="slider_controller_number">3</button>
+                                </div>
+                                <div class="col-lg col-md col-sm col p-0">
+                                    <button onclick="move_slide_4()" class="slider_controller_number">4</button>
+                                </div>
+                                <div class="col-lg col-md col-sm col p-0">
+                                    <button onclick="move_slide_5()" class="slider_controller_number">5</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="first_catalogue">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg col-md-4 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6 vert_padding">
+                    <img class="advantages_img" src="img/752a8b8f720ba5d77d0a29e54c921874.gif" alt=""><br>
+                    <a class="advantages_a" href="">Something</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6 vert_padding">
+                    <img class="advantages_img" src="img/904e626b714f229f13ee06d8335f07b6.gif" alt=""><br>
+                    <a class="advantages_a" href="">Original products</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6 vert_padding">
+                    <img class="advantages_img" src="img/fa89b5949334541b84b5a4fe559946e8.gif" alt=""><br>
+                    <a class="advantages_a" href="">7 online store chain</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6 vert_padding">
+                    <img class="advantages_img" src="img/5d91430b8403ee16129f39160484fda2.gif" alt=""><br>
+                    <a class="advantages_a" href="">Exclusive product range</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new_comings">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <h1>NEW PRODUCTS</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="good_of_month">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <h2>PRODUCT OF THE MONTH</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-sm col m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="suggestions">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="first_suggestion">
+                        <a class="img_suggestion_1" href="">
+
+                        </a>
+                        <p class="description_1_suggestion">The miraculous power of honey from Guerlain</p>
+                    </div>
+                    <div class="second_suggestion">
+                        <a class="img_suggestion_2" href="">
+
+                        </a>
+                        <p class="description_1_suggestion">A seductive glow from Glamglow</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="third_suggestion">
+                        <a class="img_suggestion_3" href=""></a>
+                        <p class="description_3_suggestion">Bliss and relaxation from Mandarina Duck</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new_comings">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <h1>NEW</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="good_of_month">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <h2>PRODUCT OF THE MONTH</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 col-sm-6 col-12 m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-sm col m-0 p-0">
+                    <div class="good">
+                        <a class="img_good_link" href="">
+                            <img class="good_img" src="img/403b1d1ab778fe1d328b4d8826752274.jpg" alt="">
+                        </a>
+                        <a class="link_to_good" href="">
+                            <span class="good_span brand_span">givenchy</span>
+                            <span class="good_span model_span">irresistable givenchy</span>
+                            <span class="good_span type_span">perfume water</span>
+                            <span class="good_span marketing_span">new</span>
+                            <p style="text-align: center;">
+                                <span class="old_price">29 500 тг.</span>
+                                <span class="new_price">17 700 тг.</span>
+                            </p>
+                            <button class="buy_button">BUY</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="useful_info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <span class="useful_info_header">useful information</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <a href="">
+                        <img style="border: 1px solid #bfbfbf;width: 100%	;" src="img/2debcd9893441ec4319ecf437adda84d.jpg" alt="">
+                    </a>
+                    <div class="article_1">
+                        <a href="" class="type_of_post">News</a><br>
+                        <a href="" class="description_of_news">YSL Y ПОЧЕМУ НЕТ?</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <a href="">
+                        <img style="border: 1px solid #bfbfbf;width: 100%	;" src="img/5bb4a59e50a8d563210a6c0713f4aea5.jpg" alt="">
+                    </a>
+                    <div class="article_1">
+                        <a href="" class="type_of_post">News</a><br>
+                        <a href="" class="description_of_news">FRAGRANCE FINDER</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <a href="">
+                        <img style="border: 1px solid #bfbfbf;width: 100%	;" src="img/701e5ba140d2b443943d5913afbbad50.jpg" alt="">
+                    </a>
+                    <div class="article_1">
+                        <a href="" class="type_of_post">News</a><br>
+                        <a href="" class="description_of_news">A REVOLUTION IN THE WORLD OF BEAUTY GADGETS: THE HIMIRROR SMART MIRROR IS NOW EXCLUSIVELY AVAILABLE IN OUR ONLINE BANKING STORE</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <a href="">
+                        <img style="border: 1px solid #bfbfbf;width: 100%	;" src="img/725b229a366a2aa598a50dd6c059bd65.jpg" alt="">
+                    </a>
+                    <div class="article_1">
+                        <a href="" class="type_of_post">Review</a><br>
+                        <a href="" class="description_of_news">CAROLINA HERRERA GOOD GIRL SUPREME</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <button class="all_publications">all publications</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="container">
+            <div class="row justify-content-around">
+                <!-- <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+				<img class="feed_thumb" src="img/feed-thumb-2.png" alt="">
+			</div> -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <span class="subscribe_header">Subscribe</span>
+                    <div class="divide_line"></div>
+                    <p class="know_first_p">and be the first to find out about discounts and promotions</p>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="border_line">
+                        <input class="subscribe_input" type="text" placeholder="введите ваш email">
+                        <div class="clear_class"></div>
+                        <div class="vertical_divide_line"></div>
+                        <button class="subscribe_button">subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="container text-center">
+                <div class="footer-logo">
+                    <img class="img-responsive" src="../images/Logo.PNG" alt="logo" width="300" height="300">
+                    <a href="#">Logo</a>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a class="envelope" href="#"><i class="fa fa-vk"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <div class="row">
+			<div class="col-lg-2 col-md-4 col-sm-6">
+				<span>КОМПАНИЯ</span><br>
+				<a href="">О компании</a><br>
+				<a href="">Адреса магазинов</a><br>
+				<a href="">Вакансии</a><br>
+				<a href="">Отзывы</a><br>
+				<a href="">Контакты</a><br>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-6">
+				<span>ПОКУПАТЕЛЯМ</span><br>
+				<a href="">Доставка и оплата</a><br>
+				<a href="">Подарочные сертификаты</a><br>
+				<a href="">Дисконтный клуб</a><br>
+				<a href="">Акции</a><br>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-6">
+				<span>ИНФОРМАЦИЯ</span><br>
+				<a href="">Бренды</a><br>
+				<a href="">Полезная информация</a><br>
+				<a href="">Отзывы</a><br>
+				<a href="">FAQ</a><br>
+				<a href="">Карта сайта</a><br>
+			</div>
+			<div class="col-lg-1 col-md-4 col-sm-6">
+				<span>КАТАЛОГ</span><br>
+				<a href="">Парфюмерия</a><br>
+				<a href="">Ногти</a><br>
+				<a href="">Макияж</a><br>
+				<a href="">Мужчинам</a><br>
+			</div>
+			<div class="col-lg-1 col-md-4 col-sm-6">
+				<a href="">Уход за кожей</a><br>
+				<a href="">Аксессуары</a><br>
+				<a href="">Волосы</a><br>
+				<a href="">Наборы</a><br>
+			</div>
+			<div class="col-lg-2 col-md-0 unvisible_support"></div>
+			<div class="col-lg-2 col-md-4 col-sm-6">
+				<p style="color: #fff;">Ваш город: <span>Алматы</span></p>
+				<a href="">Найти магазин</a>
+				<p>+7 (775) 007 02 04</p>
+				<span>c Пн по Вс с 10:00 до 21:00</span>
+			</div>
+		</div>
+		<div style="padding-top: 70px;" class="row">
+			<div class="col-lg-3 col-md-4">
+				<a class="policy_a" href="">© Интернет-магазин Mon Amie</a>
+			</div>
+			<div class="col-lg-2 col-md-4">
+				<a class="policy_a" href="">Публичная оферта</a>
+			</div>
+			<div class="col-lg-5 col-md-0 unvisible_support"></div>
+			<div class="col-lg-2 col-md-4">
+				<a class="icons_social" href="">
+					<img src="img/s-1.png" alt="">
+				</a>
+				<a class="icons_social" href="">
+					<img src="img/s-2.png" alt="">
+				</a>
+				<a class="icons_social" href="">
+					<img src="img/s-4.png" alt="">
+				</a>
+			</div>
+		</div> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
